@@ -1,6 +1,6 @@
 {
   "name": "@node-telescope/express",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Express middleware adapter for Node-Telescope — Laravel Telescope for Node.js",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -70,13 +70,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/node-telescope/node-telescope.git",
+    "url": "https://github.com/alihassan161820/NodeJs-Telescope.git",
     "directory": "packages/express"
   },
   "author": "Ali Hassan",
-  "homepage": "https://github.com/node-telescope/node-telescope#readme",
+  "homepage": "https://github.com/alihassan161820/NodeJs-Telescope#readme",
   "bugs": {
-    "url": "https://github.com/node-telescope/node-telescope/issues"
+    "url": "https://github.com/alihassan161820/NodeJs-Telescope/issues"
   },
   "engines": {
     "node": ">=18.0.0"

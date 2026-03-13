@@ -326,7 +326,7 @@ Node Telescope is secure by default:
 
 ```bash
 # Clone and install
-git clone https://github.com/AliHassan/node-telescope.git
+git clone https://github.com/alihassan161820/NodeJs-Telescope.git
 cd node-telescope
 pnpm install
 

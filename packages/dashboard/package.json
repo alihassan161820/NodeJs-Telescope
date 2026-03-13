@@ -1,6 +1,6 @@
 {
   "name": "@node-telescope/dashboard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pre-built React dashboard for Node-Telescope",
   "type": "module",
   "exports": {
@@ -38,13 +38,13 @@
   ],
   "license": "MIT",
   "author": "Ali Hassan",
-  "homepage": "https://github.com/node-telescope/node-telescope#readme",
+  "homepage": "https://github.com/alihassan161820/NodeJs-Telescope#readme",
   "bugs": {
-    "url": "https://github.com/node-telescope/node-telescope/issues"
+    "url": "https://github.com/alihassan161820/NodeJs-Telescope/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/node-telescope/node-telescope.git",
+    "url": "https://github.com/alihassan161820/NodeJs-Telescope.git",
     "directory": "packages/dashboard"
   },
   "engines": {

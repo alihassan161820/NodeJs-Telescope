@@ -1,6 +1,6 @@
 {
   "name": "@node-telescope/storage-mongodb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MongoDB storage driver for Node-Telescope",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -51,13 +51,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/node-telescope/node-telescope.git",
+    "url": "https://github.com/alihassan161820/NodeJs-Telescope.git",
     "directory": "packages/storage-mongodb"
   },
   "author": "Ali Hassan",
-  "homepage": "https://github.com/node-telescope/node-telescope#readme",
+  "homepage": "https://github.com/alihassan161820/NodeJs-Telescope#readme",
   "bugs": {
-    "url": "https://github.com/node-telescope/node-telescope/issues"
+    "url": "https://github.com/alihassan161820/NodeJs-Telescope/issues"
   },
   "engines": {
     "node": ">=18.0.0"
