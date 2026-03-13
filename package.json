@@ -1,0 +1,19 @@
+{
+  "name": "node-telescope",
+  "private": true,
+  "packageManager": "pnpm@10.29.3",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
+    "clean": "turbo run clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.0.0",
+    "turbo": "^2.0.0",
+    "typescript": "^5.7.0"
+  }
+}

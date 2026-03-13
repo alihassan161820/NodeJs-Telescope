@@ -1,0 +1,87 @@
+{
+  "name": "@node-telescope/express",
+  "version": "0.1.0",
+  "description": "Express middleware adapter for Node-Telescope — Laravel Telescope for Node.js",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "peerDependencies": {
+    "@node-telescope/core": "^0.1.0",
+    "express": "^4.18.0 || ^5.0.0",
+    "@node-telescope/storage-sqlite": "^0.1.0",
+    "@node-telescope/dashboard": "^0.1.0"
+  },
+  "peerDependenciesMeta": {
+    "@node-telescope/storage-sqlite": {
+      "optional": true
+    },
+    "@node-telescope/dashboard": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@node-telescope/core": "workspace:*",
+    "@node-telescope/storage-sqlite": "workspace:*",
+    "@node-telescope/dashboard": "workspace:*",
+    "@types/node": "^20.0.0",
+    "@types/express": "^5.0.0",
+    "@types/ws": "^8.5.0",
+    "@types/supertest": "^6.0.0",
+    "tsup": "^8.0.0",
+    "vitest": "^3.0.0",
+    "supertest": "^7.0.0",
+    "express": "^4.21.0"
+  },
+  "keywords": [
+    "telescope",
+    "debugging",
+    "monitoring",
+    "express",
+    "middleware",
+    "node"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-telescope/node-telescope.git",
+    "directory": "packages/express"
+  },
+  "author": "Ali Hassan",
+  "homepage": "https://github.com/node-telescope/node-telescope#readme",
+  "bugs": {
+    "url": "https://github.com/node-telescope/node-telescope/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

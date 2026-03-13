@@ -1,0 +1,68 @@
+{
+  "name": "@node-telescope/storage-mongodb",
+  "version": "0.1.0",
+  "description": "MongoDB storage driver for Node-Telescope",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "mongodb": "^6.12.0"
+  },
+  "peerDependencies": {
+    "@node-telescope/core": "^0.1.0"
+  },
+  "devDependencies": {
+    "@node-telescope/core": "workspace:*",
+    "@types/node": "^20.0.0",
+    "tsup": "^8.0.0",
+    "vitest": "^3.0.0",
+    "typescript": "^5.7.0"
+  },
+  "keywords": [
+    "telescope",
+    "mongodb",
+    "storage",
+    "monitoring"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-telescope/node-telescope.git",
+    "directory": "packages/storage-mongodb"
+  },
+  "author": "Ali Hassan",
+  "homepage": "https://github.com/node-telescope/node-telescope#readme",
+  "bugs": {
+    "url": "https://github.com/node-telescope/node-telescope/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

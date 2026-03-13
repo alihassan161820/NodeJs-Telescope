@@ -1,0 +1,96 @@
+{
+  "name": "@node-telescope/nestjs",
+  "version": "0.1.0",
+  "description": "NestJS module adapter for Node-Telescope — Laravel Telescope for Node.js",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "peerDependencies": {
+    "@node-telescope/core": "^0.1.0",
+    "@nestjs/common": "^10.0.0 || ^11.0.0",
+    "@nestjs/core": "^10.0.0 || ^11.0.0",
+    "rxjs": "^7.0.0",
+    "@node-telescope/storage-sqlite": "^0.1.0",
+    "@node-telescope/dashboard": "^0.1.0"
+  },
+  "peerDependenciesMeta": {
+    "@node-telescope/storage-sqlite": {
+      "optional": true
+    },
+    "@node-telescope/dashboard": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@node-telescope/core": "workspace:*",
+    "@node-telescope/storage-sqlite": "workspace:*",
+    "@node-telescope/dashboard": "workspace:*",
+    "@nestjs/common": "^10.4.15",
+    "@nestjs/core": "^10.4.15",
+    "@nestjs/testing": "^10.4.15",
+    "@nestjs/platform-express": "^10.4.15",
+    "rxjs": "^7.8.1",
+    "reflect-metadata": "^0.2.2",
+    "express": "^4.21.0",
+    "@types/express": "^5.0.0",
+    "@types/ws": "^8.5.0",
+    "supertest": "^7.0.0",
+    "@types/supertest": "^6.0.0",
+    "@types/node": "^20.0.0",
+    "tsup": "^8.0.0",
+    "vitest": "^3.0.0",
+    "typescript": "^5.7.0"
+  },
+  "keywords": [
+    "telescope",
+    "debugging",
+    "monitoring",
+    "nestjs",
+    "module",
+    "node"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-telescope/node-telescope.git",
+    "directory": "packages/nestjs"
+  },
+  "author": "Ali Hassan",
+  "homepage": "https://github.com/node-telescope/node-telescope#readme",
+  "bugs": {
+    "url": "https://github.com/node-telescope/node-telescope/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

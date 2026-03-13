@@ -1,0 +1,37 @@
+node_modules/
+dist/
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+.turbo/
+*.tsbuildinfo
+.env
+.env.local
+.env.*.local
+coverage/
+.DS_Store
+Thumbs.db
+*.log
+*.pid
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# AI tooling
+.claude/
+_bmad/
+_bmad-output/
+
+# Playwright MCP test output
+.playwright-mcp/
+
+# Test screenshots (generated during testing)
+test-*.png
+test-*.jpg
+
+# Keep dashboard dist (pre-built for npm)
+!packages/dashboard/dist/

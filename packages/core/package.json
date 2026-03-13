@@ -1,0 +1,62 @@
+{
+  "name": "@node-telescope/core",
+  "version": "0.1.0",
+  "description": "Core engine for Node-Telescope — Laravel Telescope for Node.js",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsup": "^8.0.0",
+    "vitest": "^3.0.0"
+  },
+  "keywords": [
+    "telescope",
+    "debugging",
+    "monitoring",
+    "express",
+    "nestjs",
+    "node"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node-telescope/node-telescope.git",
+    "directory": "packages/core"
+  },
+  "author": "Ali Hassan",
+  "homepage": "https://github.com/node-telescope/node-telescope#readme",
+  "bugs": {
+    "url": "https://github.com/node-telescope/node-telescope/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
