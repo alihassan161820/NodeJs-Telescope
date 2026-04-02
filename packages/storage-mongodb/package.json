@@ -1,7 +1,7 @@
 {
   "name": "@node-telescope/storage-mongodb",
-  "version": "0.1.1",
-  "description": "MongoDB storage driver for Node-Telescope",
+  "version": "1.0.0",
+  "description": "MongoDB storage driver for Node-Telescope — Laravel Telescope for Node.js",
   "type": "module",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -33,7 +33,7 @@
     "mongodb": "^6.12.0"
   },
   "peerDependencies": {
-    "@node-telescope/core": "^0.1.0"
+    "@node-telescope/core": "^1.0.0"
   },
   "devDependencies": {
     "@node-telescope/core": "workspace:*",
@@ -44,9 +44,15 @@
   },
   "keywords": [
     "telescope",
+    "laravel-telescope",
     "mongodb",
     "storage",
-    "monitoring"
+    "monitoring",
+    "observability",
+    "debugging",
+    "devtools",
+    "nodejs",
+    "typescript"
   ],
   "license": "MIT",
   "repository": {

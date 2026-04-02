@@ -1,6 +1,6 @@
 {
   "name": "@node-telescope/nestjs",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "NestJS module adapter for Node-Telescope — Laravel Telescope for Node.js",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -33,12 +33,12 @@
     "ws": "^8.18.0"
   },
   "peerDependencies": {
-    "@node-telescope/core": "^0.1.0",
+    "@node-telescope/core": "^1.0.0",
     "@nestjs/common": "^10.0.0 || ^11.0.0",
     "@nestjs/core": "^10.0.0 || ^11.0.0",
     "rxjs": "^7.0.0",
-    "@node-telescope/storage-sqlite": "^0.1.0",
-    "@node-telescope/dashboard": "^0.1.0"
+    "@node-telescope/storage-sqlite": "^1.0.0",
+    "@node-telescope/dashboard": "^1.0.0"
   },
   "peerDependenciesMeta": {
     "@node-telescope/storage-sqlite": {
@@ -70,11 +70,22 @@
   },
   "keywords": [
     "telescope",
+    "laravel-telescope",
+    "nestjs",
+    "nestjs-module",
+    "nestjs-monitoring",
     "debugging",
     "monitoring",
-    "nestjs",
-    "module",
-    "node"
+    "observability",
+    "devtools",
+    "developer-tools",
+    "request-logger",
+    "api-debugger",
+    "debug-dashboard",
+    "error-tracking",
+    "application-monitoring",
+    "nodejs",
+    "typescript"
   ],
   "license": "MIT",
   "repository": {

@@ -1,6 +1,6 @@
 {
   "name": "@node-telescope/express",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Express middleware adapter for Node-Telescope — Laravel Telescope for Node.js",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -33,10 +33,10 @@
     "ws": "^8.18.0"
   },
   "peerDependencies": {
-    "@node-telescope/core": "^0.1.0",
+    "@node-telescope/core": "^1.0.0",
     "express": "^4.18.0 || ^5.0.0",
-    "@node-telescope/storage-sqlite": "^0.1.0",
-    "@node-telescope/dashboard": "^0.1.0"
+    "@node-telescope/storage-sqlite": "^1.0.0",
+    "@node-telescope/dashboard": "^1.0.0"
   },
   "peerDependenciesMeta": {
     "@node-telescope/storage-sqlite": {
@@ -61,11 +61,22 @@
   },
   "keywords": [
     "telescope",
+    "laravel-telescope",
+    "express",
+    "express-middleware",
     "debugging",
     "monitoring",
-    "express",
-    "middleware",
-    "node"
+    "observability",
+    "devtools",
+    "developer-tools",
+    "request-logger",
+    "api-debugger",
+    "debug-dashboard",
+    "error-tracking",
+    "http-logger",
+    "application-monitoring",
+    "nodejs",
+    "typescript"
   ],
   "license": "MIT",
   "repository": {

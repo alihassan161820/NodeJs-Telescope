@@ -1,6 +1,6 @@
 {
   "name": "@node-telescope/storage-sqlite",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "SQLite storage backend for Node-Telescope using better-sqlite3",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -33,7 +33,7 @@
     "better-sqlite3": "^11.0.0"
   },
   "peerDependencies": {
-    "@node-telescope/core": "^0.1.0"
+    "@node-telescope/core": "^1.0.0"
   },
   "devDependencies": {
     "@node-telescope/core": "workspace:*",
@@ -43,10 +43,16 @@
   },
   "keywords": [
     "telescope",
+    "laravel-telescope",
     "sqlite",
     "storage",
     "better-sqlite3",
-    "monitoring"
+    "monitoring",
+    "observability",
+    "debugging",
+    "devtools",
+    "nodejs",
+    "typescript"
   ],
   "license": "MIT",
   "repository": {

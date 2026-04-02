@@ -1,6 +1,6 @@
 {
   "name": "@node-telescope/core",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Core engine for Node-Telescope — Laravel Telescope for Node.js",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -36,11 +36,25 @@
   },
   "keywords": [
     "telescope",
+    "laravel-telescope",
     "debugging",
     "monitoring",
+    "observability",
+    "devtools",
+    "developer-tools",
+    "debug-dashboard",
+    "request-logger",
+    "api-debugger",
+    "error-tracking",
+    "query-monitor",
+    "http-logger",
+    "application-monitoring",
+    "logging-dashboard",
     "express",
     "nestjs",
-    "node"
+    "fastify",
+    "nodejs",
+    "typescript"
   ],
   "license": "MIT",
   "repository": {

@@ -2,7 +2,12 @@
 
 **Laravel Telescope for the Node.js ecosystem.** A debugging and monitoring dashboard that gives you full visibility into your application's requests, exceptions, logs, queries, and more.
 
+[![npm version](https://img.shields.io/npm/v/@node-telescope/core.svg)](https://www.npmjs.com/package/@node-telescope/core)
+[![npm downloads](https://img.shields.io/npm/dm/@node-telescope/core.svg)](https://www.npmjs.com/package/@node-telescope/core)
+[![CI](https://github.com/alihassan161820/NodeJs-Telescope/actions/workflows/ci.yml/badge.svg)](https://github.com/alihassan161820/NodeJs-Telescope/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-%3E%3D18-green.svg)](https://nodejs.org/)
 
 ---
 

@@ -1,6 +1,6 @@
 {
   "name": "@node-telescope/storage-postgres",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "PostgreSQL storage backend for Node-Telescope using pg",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -33,7 +33,7 @@
     "pg": "^8.13.0"
   },
   "peerDependencies": {
-    "@node-telescope/core": "^0.1.0"
+    "@node-telescope/core": "^1.0.0"
   },
   "devDependencies": {
     "@node-telescope/core": "workspace:*",
@@ -45,10 +45,16 @@
   },
   "keywords": [
     "telescope",
+    "laravel-telescope",
     "postgres",
     "postgresql",
     "storage",
-    "monitoring"
+    "monitoring",
+    "observability",
+    "debugging",
+    "devtools",
+    "nodejs",
+    "typescript"
   ],
   "license": "MIT",
   "repository": {
