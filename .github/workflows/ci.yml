@@ -25,7 +25,11 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
-      - run: pnpm build --filter='!@node-telescope/dashboard'
+      # Dashboard uses native Tailwind bindings that may not be available.
+      # It ships as a pre-built SPA, so we skip its build in CI.
+      - run: node -e "const p=require('./packages/dashboard/package.json'); p.scripts.build='echo skipped'; require('fs').writeFileSync('./packages/dashboard/package.json', JSON.stringify(p,null,2))"
+
+      - run: pnpm build
 
       - run: pnpm test
 
