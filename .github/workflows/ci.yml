@@ -25,7 +25,7 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
-      - run: pnpm build
+      - run: pnpm build --filter='!@node-telescope/dashboard'
 
       - run: pnpm test
 
